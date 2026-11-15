@@ -1,10 +1,10 @@
 
 <div align="center">
 
-  <h1>Resume Analyzer & Job Matcher</h1>
+  <h1>AI Resume Analyzer & Job Matcher</h1>
   
   <p>
-    <strong>A Production-Grade AI Toolkit for HR Tech</strong>
+    <strong>Open-source AI resume parser, ATS-style job matcher and LLM career coach, built with FastAPI, Next.js, Supabase and Ollama</strong>
   </p>
 
   <p>
@@ -21,7 +21,7 @@
 
 ## Overview
 
-**Resume Analyzer** is a sophisticated, open-source tool designed to bridge the gap between talent acquisition and candidate preparation. It leverages Natural Language Processing (NLP) and Machine Learning to parse resumes, extract key skills, and semantically match candidates against job descriptions.
+**AI Resume Analyzer** is an open-source resume screening and job matching tool designed to bridge the gap between talent acquisition and candidate preparation. It leverages Natural Language Processing (NLP) and Machine Learning to parse resumes, extract key skills, and semantically match candidates against job descriptions.
 
 Built with a modern tech stack (FastAPI, Next.js, Supabase) and integrated with local LLMs via Ollama (DeepSeek/Mistral), this project demonstrates a scalable, secure, and performant architecture suitable for enterprise HR solutions.
 
@@ -131,8 +131,8 @@ To use the AI Coach features, you need Ollama running locally.
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/Clufy/resume-analyzer.git
-    cd resume-analyzer
+    git clone https://github.com/Clufy/ai-resume-analyzer.git
+    cd ai-resume-analyzer
     ```
 
 2.  **Configure Environment**
@@ -197,6 +197,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Author
+
+Built by **[Aquib Haq](https://github.com/Clufy)**, AI and backend engineer. More projects at [clufy.github.io](https://clufy.github.io/).
+
+### Related projects
+
+- [Sentinel](https://github.com/Clufy/Sentinel): RAG compliance assistant for NIST 800-53, ISO 27001 and CIS Controls (FastAPI, pgvector, Ollama).
+- [spanguard](https://github.com/Clufy/spanguard): PII/PHI detection and redaction for Python, useful before sending resumes to an LLM.
 
 ## License
 
