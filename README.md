@@ -1,3 +1,5 @@
+![AI Resume Analyzer scoring a resume against a job description](.github/assets/banner.gif)
+
 
 <div align="center">
 
